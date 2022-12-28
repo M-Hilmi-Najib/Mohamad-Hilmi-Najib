@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GuestRecord {
     public static void main(String[] args) {
-        EventOrganiser Tamu1 = new EventOrganiser("001","Ari","Tegal","ari@gmail.com","0811223344");
+        EventOrganiser Tamu1 = new EventOrganiser("001","Arina","Tegal","arina@gmail.com","0811223344");
         Tamu1.PrintGuests();
         EventOrganiser Tamu2 = new EventOrganiser("002","Dimas","Tegal","dimas@gmail.com","0895404397715");
         Tamu2.PrintGuests();
@@ -24,13 +24,6 @@ public class GuestRecord {
         Tamu9.PrintGuests();
         EventOrganiser Tamu10 = new EventOrganiser("010","Sinta","Tegal","sinta@gmail.com","0898098765564");
         Tamu10.PrintGuests();
-
-
-//        System.out.println("ID : " + Tamu2.getCUSTID());
-//        System.out.println("NAMA : " + Tamu2.getCUSTNAME());
-//        System.out.println("ADDR : " + Tamu2.getCUSTADDR());
-//        System.out.println("EMAIL : " + Tamu2.getCUSTEMAIL());
-//        System.out.println("PHONE : " + Tamu2.getCUSTPHONE());
 
 
     }
